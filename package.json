@@ -1,0 +1,44 @@
+{
+  "name": "gamedeck-cli",
+  "version": "0.2.0",
+  "description": "GameDeck scaffolding CLI",
+  "main": "index.js",
+  "bin": {
+    "gd": "build/gd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supermegadex/gamedeck-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "generator",
+    "gamedeck"
+  ],
+  "author": "Daniel Noon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Supermegadex/gamedeck-cli/issues"
+  },
+  "homepage": "https://github.com/Supermegadex/gamedeck-cli#readme",
+  "devDependencies": {
+    "@types/copy": "^0.3.1",
+    "@types/node": "^12.7.1"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "copy": "^0.3.2",
+    "ora": "^3.4.0"
+  },
+  "files": [
+    "build/",
+    "scaffolds/",
+    "LICENSE",
+    "README.md"
+  ]
+}
